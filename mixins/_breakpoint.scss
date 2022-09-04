@@ -16,3 +16,11 @@
     @content;
   }
 }
+
+// media-breakpoint-up alias
+// stand for "BreakPoint"
+@mixin bp($name) {
+  @include media-breakpoint-up($name) {
+    @content;
+  }
+}
