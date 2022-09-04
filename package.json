@@ -4,9 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "sass ./main.scss ./dist/main.css"
+    "build": "sass ./main.scss ./dist/main.css",
+    "stylelint": "npx stylelint '**/*.scss'",
+    "stylelint-fix": "npx stylelint '**/*.scss' --fix"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "stylelint": "^14.11.0",
+    "stylelint-config-prettier-scss": "^0.0.1",
+    "stylelint-config-sass-guidelines": "^9.0.1",
+    "stylelint-config-standard-scss": "^5.0.0"
+  }
 }
