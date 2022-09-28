@@ -13,6 +13,7 @@
     "./lib/reset.css"
   ],
   "rules": {
+    "selector-class-pattern": null,
     "order/properties-alphabetical-order": null,
     "order/properties-order": [
       "position",
