@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "sass ./main.scss ./dist/main.css",
-    "stylelint": "npx stylelint '**/*.scss'",
-    "stylelint-fix": "npx stylelint '**/*.scss' --fix"
+    "stylelint": "npx stylelint **/*.scss",
+    "stylelint-fix": "npx --fix stylelint **/*.scss"
   },
   "keywords": [],
   "author": "",
