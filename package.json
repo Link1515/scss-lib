@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "sass ./main.scss ./dist/main.css",
-    "stylelint": "npx stylelint '**/*.scss'",
-    "stylelint-fix": "npx stylelint '**/*.scss' --fix"
+    "stylelint": "npx stylelint **/*.scss",
+    "stylelint-fix": "npx --fix stylelint **/*.scss"
   },
   "keywords": [],
   "author": "",
@@ -14,6 +14,7 @@
   "devDependencies": {
     "postcss-html": "^1.5.0",
     "stylelint": "^14.11.0",
+    "stylelint-config-html": "^1.1.0",
     "stylelint-config-prettier-scss": "^0.0.1",
     "stylelint-config-standard-scss": "^5.0.0",
     "stylelint-order": "^5.0.0"
